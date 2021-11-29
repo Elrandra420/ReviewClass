@@ -3,4 +3,4 @@ project(ReviewClass)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ReviewClass main.cpp)
+add_executable(ReviewClass main.cpp Review.cpp Review.h Restaurant.cpp Restaurant.h)
